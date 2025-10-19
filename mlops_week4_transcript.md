@@ -32,5 +32,5 @@ Here is a step-by-step plan that covers all 10 of your points in a logical flow.
 
 5.  **Conclusion (Explaining Errors & Learnings)**
     * **Show:** Keep showing the successful CML comment.
-    * **Say:** "This pipeline is working now, but I encountered several errors. My biggest challenge was a `cml: command not found` error. I fixed this by installing CML using `npm` instead of `pip` and using `npx cml` to run it. I also had to add a `permissions` block to my YAML file to give the action permission to write a comment."
-    * **Say:** "My main learning from this assignment was how to tie everything together. I learned how to automate data validation, model testing, and reporting, which is exactly what a real MLOps team does. Using CML to get instant feedback in a pull request is a very powerful tool for collaboration."
+    * **Say:** "This pipeline is working now, but I encountered several errors. My biggest challenge was a `cml: command not found` error. I fixed this by installing CML using `npm` instead of `pip` and using `cml` to run it. I also had to add a `permissions` block to my YAML file to give the action permission to write a comment. Also to mentions there was a bit of an issue with the `gcp authentication` that i had to fix"
+    * **Say:** "My main learning from this assignment was how to tie everything together. I learned how to automate data validation, model testing, and reporting, which is exactly what a real MLOps team does."
